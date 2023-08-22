@@ -1,0 +1,7 @@
+var prompts=["Today\'s main goal is...","My top three goals for today","How can I increase my chances of reaching my goals today?","Top 5 tasks I need to accomplish today","Expectations I have for myself today","I\'m feeling...", "Three things that make me feel positive about myself","How I am planning on practicing self-care today...","Three emotions I\’m currently feeling", "Is there anything that\'s worrying me?","3 postive affirmations for the day","Accomplishments I\'m proud of", "Advice to my future self", "Today's advice to myself","5 positive qualities I have", "I am excited for...","Today I feel...","What brings me joy?", "What I\'m thinking of right now?","My 3 small goals for the day","3 things that bring me joy and positive energy","What lesson did I learn yesterday?","I am grateful for...","Reflect on something you learned from the yesterday.","List three things that bring you joy and positive energy","Write down a long-term goal or dream you're working towards","What do I hope to accomplish today?","three things I\'m grateful for today.","What do I want to achieve today?"
+]
+
+function newPrompt(){
+    var randomNumber = Math.floor(Math.random()*(prompts.length));
+    document.getElementById('promptDisplay').innerHTML=prompts[randomNumber];
+};

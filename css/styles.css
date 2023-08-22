@@ -1,0 +1,101 @@
+.promptBox{
+    margin: 0, auto;
+}
+body{
+    background: #f7c3c3;
+    text-decoration: none;
+    
+}
+#main{
+    text-align: center;
+    color: #ffffffe5;
+    
+}
+.promptBox{
+    position: relative;
+    text-align: center;
+    color: #e46c6c;
+    margin:  auto;
+    /* border: solid 2px #000; */
+    padding: 70px;
+    max-width: 50%;
+    height:50%;
+}
+.promptBox span{
+font-size: 25px;
+color: #ffffffe5;
+opacity: 0.6;
+
+}
+#promptDisplay{
+    text-transform: uppercase;
+    color: #e46c6c;
+    display: inline;
+    padding: 50px 0;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    
+}
+.heading span{
+    font-family: 'Lavishly Yours','Passions Conflict','Birthstone Bounce', cursive;
+    font-size: 73px;
+    color: #e46c6c;
+    
+}
+.btn{
+    display:block;
+    height: 38px;
+    margin: 60px auto;
+    margin-bottom: 0;
+    opacity: 0.7;
+    border: thin solid #e46363;
+    font-weight: 400;
+    background-color: rgb(228, 108, 108);
+    color: #fff;
+    border-radius: 6px;
+    padding: 0 20px;
+    transition:0.3s;
+}
+.cloud{
+    position:absolute;
+    left:40px;
+    font-size:180px;
+    color: rgba(255, 248, 248, 0.898);
+    top:-10px;
+}
+.cloud2{
+    position:absolute;
+    right:40px;
+    font-size:180px;
+    color: rgba(255, 248, 248, 0.898);
+    bottom:70px;
+}
+a{
+    text-decoration: none;
+    color:#e46363;
+}
+@media screen and (max-width: 995px){
+    .cloud, .cloud2{
+        font-size: 100px;
+}
+    
+}
+@media screen and (max-width: 430px){
+    .cloud{
+        left:100px;
+    }
+
+    .cloud2{
+      bottom: 0px;
+        font-size: 100px;
+    }
+    
+}
+@media screen and (max-width: 295px){
+    .cloud, .cloud2{
+        display:none;
+}
+}
+   
